@@ -1,0 +1,28 @@
+/*background page */
+.background {
+    background-color: rgb(0, 217, 255);
+    width: 100%;
+}
+
+/*calculator */
+.calculator {
+    width: 80%;
+    margin: auto;
+}
+
+.title {
+
+}
+
+.tagline {
+
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    width: 25%;
+    display: inline-flex;
+}
