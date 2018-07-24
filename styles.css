@@ -1,21 +1,27 @@
 /*background page */
 .background {
-    background-color: rgb(0, 217, 255);
+    background-color: rgb(200, 247, 255);
     width: 100%;
 }
 
 /*calculator */
 .calculator {
-    width: 80%;
+    width: 300px;
     margin: auto;
 }
 
 .title {
-
+    width: 100%;
+    text-align: center;
 }
 
 .tagline {
+    width: 100%;
+    text-align: center;
+}
 
+.display {
+    width: 95%;
 }
 
 .row {
@@ -23,6 +29,18 @@
 }
 
 .column {
-    width: 25%;
+    width: 22%;
     display: inline-flex;
+    padding: 0%
+}
+
+.buttonclass {
+    box-sizing: border-box;
+    width: 50px;
+    background-color: grey;
+    margin: 5px;
+    border: 2px;
+    border-color: black;
+    padding: 10px;
+    text-align: center;
 }
