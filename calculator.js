@@ -50,6 +50,14 @@ function input(digitValue) {
         //temp = '';
         document.getElementById("answer").value = "No Clue";
     }
+    /*else if (digitValue === "i") {
+        if (temp > 0); {
+            temp = Math.abs(temp) * -1;
+        }
+        else if (temp < 0); {
+            temp = math.abs(temp);
+        }*/
+    }
     else if (digitValue === "AC") {
         temp = '';
         select = [];
@@ -69,6 +77,21 @@ function input(digitValue) {
 
             if (operator === '+') {
                 calc += nextNum;
+            console.log(select);
+            }
+
+            if (operator === '-') {
+                calc -= nextNum;
+            console.log(select);
+            }
+
+            if (operator === '*') {
+                calc *= nextNum;
+            console.log(select);
+            }
+
+            if (operator === '/') {
+                calc /= nextNum;
             console.log(select);
             }
 
