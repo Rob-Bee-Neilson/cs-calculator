@@ -56,8 +56,8 @@ function input(digitValue) {
         }
         else if (temp < 0); {
             temp = math.abs(temp);
-        }*/
-    }
+        }
+    }*/
     else if (digitValue === "AC") {
         temp = '';
         select = [];
